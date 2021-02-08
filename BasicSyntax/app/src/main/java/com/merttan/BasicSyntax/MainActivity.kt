@@ -51,6 +51,16 @@ class MainActivity : AppCompatActivity() {
         val s2 = "${s1.replace("is" , "vas")}, but now is $a"
         println(s2)
 
+        println("----------------Conditional expressions--------------")
+
+        println("max number is ${maxOf(5,10)}")
+
+        println("----------------Nullable values--------------")
+        printProduct("6", "7")
+        printProduct("a", "7")
+        printProduct("a", "b")
+
+
 
     }
     fun printSum(a: Int, b: Int): Unit {
@@ -61,6 +71,30 @@ class MainActivity : AppCompatActivity() {
     }
     fun increment(){
         vrbl +=1
+    }
+
+    fun maxOf( number1 : Int, number2 : Int ) : Int{
+        if(number1>number2){
+            return number1
+        }else {
+            return number2
+        }
+    }
+
+    fun parseInt(str: String): Int? {
+        return str.toIntOrNull()
+    }
+    fun printProduct(arg1: String, arg2: String) {
+        val x = parseInt(arg1)
+        val y = parseInt(arg2)
+// Using `x * y` yields error because they may hold nulls.
+        if (x != null && y != null) {
+// x and y are automatically cast to non-nullable after null check
+            println(x * y)
+        }
+        else {
+            println("'$arg1' or '$arg2' is not a number")
+        }
     }
 
 
