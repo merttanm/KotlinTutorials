@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -15,6 +17,31 @@ class MainActivity : AppCompatActivity() {
         println(describe(1000L))
         println(describe(2))
         println(describe("other"))
+
+
+        val list = listOf("a","b","c")
+        if (2 in 0..list.lastIndex) {
+            println( "2 is out of range")
+        }
+
+
+        var x = 8
+        if (x in 1..10) { // => x>=1 && x<=10
+            println("x>=1 && x<=10")
+        }
+
+        val items = listOf("Fatih", "Sultan", "Mehmet")
+
+        for (item in items) {
+            println(item)
+        }
+
+        val items2 = setOf("apple", "banana", "kiwifruit")
+
+        when {
+            "apple" in items2 -> println("apple is fine too")
+        }
+
 
     }
 
@@ -45,4 +72,6 @@ class MainActivity : AppCompatActivity() {
                     !is String -> "Not a string"
                     else -> "Unknown"
                 }
+
+
 
