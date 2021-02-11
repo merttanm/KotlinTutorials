@@ -31,9 +31,25 @@ class MainActivity : AppCompatActivity() {
         val d=1.1
         val f=1.1f
 
-        printDouble(d)
+        println(printDouble(d))
     //  printDouble(i) //Error : Type missmatch
     //  printDouble(f) //Error : Type missmatch
+
+    //---------------------------Underscores in numeric literals (since 1.1)-----------------------
+
+        println("-----Underscores in numeric literals-----")
+        val sixMillion = 1_000_000
+        val creatingCartNumber=123_456_678_123L
+        val socialSecurityNumber=234_000_000L
+        val hexBytes = 0xFF_EC_DE_5E
+        val bytes=0b11010010_01101001_10010100_10010010
+        println("sixMillion           = $sixMillion")
+        println("creatingCartNumber   = $creatingCartNumber")
+        println("socialSecurityNumber = $socialSecurityNumber")
+        println("hexBytes             = $hexBytes")
+        println("bytes                = $bytes")
+
+
 
 
 
