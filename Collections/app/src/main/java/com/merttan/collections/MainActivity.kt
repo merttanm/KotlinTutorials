@@ -22,5 +22,14 @@ class MainActivity : AppCompatActivity() {
                 .map { it.toUpperCase() }
                 .forEach { println(it) }
 
+
+        val music = listOf ("bizimkisi","bir"," aşk"," hikayesi")
+        println("dizideki eleman sayısı: ${music.size}")
+        println(music)
+
     }
+
+
+
+
 }
