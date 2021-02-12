@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 
     //---------------------------Underscores in numeric literals (since 1.1)-----------------------
 
-        println("-----Underscores in numeric literals-----")
+        println("-----Alt çizgi kullanımı-----")
         val sixMillion = 1_000_000
         val creatingCartNumber=123_456_678_123L
         val socialSecurityNumber=234_000_000L
@@ -48,6 +48,29 @@ class MainActivity : AppCompatActivity() {
         println("socialSecurityNumber = $socialSecurityNumber")
         println("hexBytes             = $hexBytes")
         println("bytes                = $bytes")
+
+        val a : Int =100
+        val boxedA : Int? =a
+        val anotherBoxedA : Int? = a
+
+        val b :Int = 128
+        val boxedB :Int? =b
+        val anotherBoxedB : Int? = b
+        println(boxedA === anotherBoxedA) // true
+        println(boxedB === anotherBoxedB) //false
+
+
+        val c :Int =10000
+        println(c==c)// true
+        val boxedC: Int? =c
+        val anotherBoxedC : Int? = c
+        println(boxedC == anotherBoxedC) //true
+
+
+
+
+
+
 
 
 
