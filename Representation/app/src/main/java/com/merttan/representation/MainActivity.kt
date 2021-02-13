@@ -25,8 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         val z = 5 / 2.toDouble()
         println(z == 2.5)
-
-
+        
 
     }
 

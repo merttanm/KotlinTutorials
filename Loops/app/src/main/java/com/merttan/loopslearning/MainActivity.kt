@@ -5,6 +5,7 @@ import android.os.Bundle
 import kotlin.concurrent.thread
 import kotlin.properties.Delegates
 
+
 class MainActivity : AppCompatActivity() {
 
 
