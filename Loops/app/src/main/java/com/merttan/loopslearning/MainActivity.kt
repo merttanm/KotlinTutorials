@@ -2,6 +2,8 @@ package com.merttan.loopslearning
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlin.concurrent.thread
+import kotlin.properties.Delegates
 
 class MainActivity : AppCompatActivity() {
 
@@ -41,9 +43,32 @@ class MainActivity : AppCompatActivity() {
         when {
             "apple" in items2 -> println("apple is fine too")
         }
+        println("--------------------------------------")
+
+        var dizi =listOf<Int>()
+        for (i in 1..1000){
+            thread {
+                dizi = dizi + i
+
+            }
+        }
+        Thread.sleep(1000)
+
+        println(" dizi boyutu ${dizi.size}")
+
+        /*
+        var names by Delegates.observable(listOf<String>()){ _, old, new -> println(" $old  to $new")}
+        names += "MERT"
+        names += "TAN"
+
+*/
+
+
+
 
 
     }
+
 
 }
 
