@@ -38,10 +38,10 @@ class MainActivity : AppCompatActivity() {
             }
         }
         myObject.doSomething()
-
+/*
         val files = File("Test").listFiles()
         println(files?.size)
-
+*/
         //-----------------Swapping two variables----------------
         var a = 1
         var b = 20
