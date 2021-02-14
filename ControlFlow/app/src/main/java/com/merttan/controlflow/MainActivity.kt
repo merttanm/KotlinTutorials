@@ -75,6 +75,10 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+        fun hasPrefix(pr :Any ) =when(pr){
+            is String -> pr.startsWith("prefix")
+            else -> false
+        }
 
 
 }
