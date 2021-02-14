@@ -3,6 +3,7 @@ package com.merttan.idioms
 import android.icu.util.RangeValueIterator
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,8 +19,6 @@ class MainActivity : AppCompatActivity() {
         println(map["c"])
 
 
-
-
         for( i in 1..100){}
         for( i in 1 until 100){}
         for( x in 2..10 step 2){}
@@ -28,13 +27,16 @@ class MainActivity : AppCompatActivity() {
 
         println(theAnswer())
 
+    }
 
-
-
+    fun helloKotlin(view : View){
+        println("Selam Kotlin")
 
 
     }
-    
+
+
+
     fun theAnswer()=42
 
 }

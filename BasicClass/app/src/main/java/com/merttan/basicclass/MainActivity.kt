@@ -48,6 +48,15 @@ class MainActivity : AppCompatActivity() {
         a = b.also { b = a }
         println(a)
 
+        val homer=Simpson(54,"HomerSimpson","Nuclear")
+        println("${homer.age} ${homer.name} ${homer.job}")
+        //Object & Instance
+        //homer.name="Homer"
+       // homer.job="Nuclear"
+       // homer.age=50
+       // println("Name   : ${homer.name}")
+       // println("Job    : ${homer.job}")
+      //  println("Age    : ${homer.age}")
 
 
 
