@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
         //null olarak tanımladığımız nesneleri, aritmalik işlemlerle doğrudan çarpamayız.Örneğin null *10 HATA verir
         println(myString)
         // !!  KESİN VAR DEMEK
-        // ?   VAR MI YOK MU BELLİ DEĞİL DEMEK
+        // ?   VAR MI YOK MU BELLİ DEĞİL DEMEKDİR
         println("---------------Nullable(?) && Non-null ile Güvenlik kontorlleri------------------")
         // 1) Null safely (Null güvenliği kontrolü)
         if(myAge != null){
