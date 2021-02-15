@@ -57,8 +57,31 @@ class MainActivity : AppCompatActivity() {
        // println("Name   : ${homer.name}")
        // println("Job    : ${homer.job}")
       //  println("Age    : ${homer.age}")
+        println("---------------Nullable(?) && Non-null------------------")
+        //Nullability
+        //Nullable(?) && Non-null
+        /*Değişken tanımlarken türünü bilmiyorsak null olarak tanımlayabiliriz ve güvenli kod yazmak için onemlidir*/
+        var myString :String?= null
+        var myAge :Int?=null
+        //null olarak tanımladığımız nesneleri, aritmalik işlemlerle doğrudan çarpamayız.Örneğin null *10 HATA verir
+        println(myString)
+        // !!  KESİN VAR DEMEK
+        // ?   VAR MI YOK MU BELLİ DEĞİL DEMEK
+        println("---------------Nullable(?) && Non-null ile Güvenlik kontorlleri------------------")
+        // 1) Null safely (Null güvenliği kontrolü)
+        if(myAge != null){
+            println(myAge *10)
+        }else{
+            println("myAge is null")
+        }
+        // 2) Safe call
+        println(myAge?.toString(2))
+        // var mı yok mu bilinmiyor der
 
-
+        // 3) elvis
+        /* null değere  ?:  operatorü ile o an değer atıyoruz*/
+        val myResult = myAge?.compareTo(2) ?: -123123
+        println(myResult)
 
          }
 
