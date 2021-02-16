@@ -10,6 +10,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
      lateinit var sharedPreferences : SharedPreferences
+      var getSharedPreferences :Int? =null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         // SharedPreferences
          sharedPreferences=this.getSharedPreferences("com.merttan.storingdata", MODE_PRIVATE)
-         val getSharedPreferences= sharedPreferences.getInt("age",-1)
+         getSharedPreferences= sharedPreferences.getInt("age",-1)
         if(getSharedPreferences==-1){
             println("Hata")
         } else{
@@ -39,6 +40,13 @@ class MainActivity : AppCompatActivity() {
         }
     }
     fun delete(view :View){
+
+        getSharedPreferences= sharedPreferences.getInt("age",-1)
+        if(getSharedPreferences != -1 ){
+            sharedPreferences.edit().remove("age")
+            println("--------Veri Silindi--------")
+            textView.text="Artık yaşı boş geçer.."
+        }
 
     }
 
