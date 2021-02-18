@@ -4,7 +4,7 @@
 okuyacağı bir Tutorial tadında bir kaynak yazmak istedim. Öğretirken öğrenmek ve
 eski bilgilerimi tekrar etmek , güncel versiyonları takip etmek ve not almak 
 amaçlı yazdığım bir kaynak.Kotlin ile gelen yenilikleri, kolaylıkları avantaj ve 
-dezavantajları detaylı ve temiz bir şekilde kodlara döktüyoruz.Sadece kotlin değil,
+dezavantajları detaylı ve temiz bir şekilde kodlara döküyoruz.Sadece kotlin değil,
 Java ve Kotlin farklarını, benzerliklerini mukayese eden örnekleri test ediyoruz.
 
 
