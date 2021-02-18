@@ -9,5 +9,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         InitOrderDemo("hello")
         Constructors(1456466)
+        var prs :PersoneKontrol=Personel ()
+        prs.mudur()
+        prs.yazilimci()
+        prs.ik()
+        prs.about()
     }
 }
