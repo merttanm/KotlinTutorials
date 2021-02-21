@@ -35,11 +35,16 @@ class MainActivity : AppCompatActivity() {
         }
         //Listedeki bir eleman şartı sağlıoyrsa true döner
         val list=listOf(1,3,5,7,9)
-        println(list.any { it>8 }) //true
-        println(list.any { it>10 }) // false
-
-
-
+        println(list.any { it>8 }) // en az bir eleman sağlıyorsa -- true
+        println(list.any { it>10 }) //en az bir eleman sağlıyorsa -- false
+        println(list.all { it> 10 })  // tüm elemanlar koşulu sağlıyorsa
+        println(list.all { it> 0 })  // tüm elemanlar koşulu sağlıyorsa
+        println(list.count { it>4 }) // koşuldan büyük veya küçük elemanların toplam sayısı döner
+        println(list.count { it>9 }) // koşuldan büyük veya küçük elemanların toplam sayısı döner
+        list.forEach{ println(it)} // for
+        list.forEachIndexed { index, i -> println("$index. sayısı $i") } // index value for
+        println(list.max()) // max value
+        println(list.min())  // min value
 
        /*
         var array : IntArray = intArrayOf(1,2,3,4,5,6,7)
