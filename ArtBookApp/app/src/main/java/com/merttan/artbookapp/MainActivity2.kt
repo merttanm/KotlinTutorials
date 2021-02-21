@@ -21,7 +21,7 @@ bu işlemi AndroidMnifest dosyasında yaparız. Eğer ki kullanıcıdan izin
 aldıysak ve kullanıcı daha önceden bu izni onayladıysa bunu her seferinde
 istemeyiz. Android 23 sürümü öncesi bu izin işlemleri gerekmiyordu*/
 
-        if(ContextCompat.checkSelfPermission(this, android.Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED)
+        if(ContextCompat.checkSelfPermission(this, android.Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {}
 
 
     }
