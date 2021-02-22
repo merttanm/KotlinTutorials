@@ -45,6 +45,11 @@ class MainActivity : AppCompatActivity() {
         list.forEachIndexed { index, i -> println("$index. sayısı $i") } // index value for
         println(list.max()) // max value
         println(list.min())  // min value
+        println(list.drop(0)) // 0 dan büyük rakamları listeler
+        println(list.filter { it <4 }) // koşula göre listeler
+         var array = arrayOf(1453,223,300,400,500,600,"asdasdadada")
+         println(array.size)
+
 
        /*
         var array : IntArray = intArrayOf(1,2,3,4,5,6,7)
@@ -59,5 +64,25 @@ class MainActivity : AppCompatActivity() {
             index2--
         }
 */
+  println("---------------------------------------------------------")
+        var myList = listOf(1,23,4,5,6)
+        println(myList.get(2))
+        println(myList.indexOf(1))
+        println(myList.max())
+        println(myList.min())
+        for (item in myList){
+            println(item)
+        }
+
+
+
+
+
+
+
+
+
+
+
     }
 }
