@@ -2,8 +2,16 @@ package com.merttan.genelcalisma
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Toast
+import androidx.core.content.ContextCompat
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
+    var myList = arrayOf(1,2,3,4)
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -70,19 +78,21 @@ class MainActivity : AppCompatActivity() {
         println(myList.indexOf(1))
         println(myList.max())
         println(myList.min())
+        println("---------------------------------------------------------")
         for (item in myList){
             println(item)
         }
 
+        var myArray = arrayOf("Fatih","Sultan","Mehmet","Vakıf", "Universitesi")
 
+        for (element in myArray){
+            text_view.text = text_view.text.toString() + element + ", "
+        }
 
-
-
-
-
-
-
-
+        Toast.makeText(this@MainActivity ,"Serengetiye Hoşgeldinn", Toast.LENGTH_LONG).show()
 
     }
+
+
+
 }
