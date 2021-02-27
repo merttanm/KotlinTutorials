@@ -91,6 +91,29 @@ class MainActivity : AppCompatActivity() {
 
         Toast.makeText(this@MainActivity ,"Serengetiye Hoşgeldinn", Toast.LENGTH_LONG).show()
 
+
+
+        val rows = 10
+        val rows2= 0
+
+        for (i in 1..rows){
+            for (j in 1..i){
+                print("*")
+            }
+            println()
+        }
+
+        for (k in rows downTo 1){
+            for (l in 1..k){
+                print("*")
+            }
+            println()
+        }
+
+        Toast.makeText(this@MainActivity, "selam", Toast.LENGTH_LONG).show()
+
+
+
     }
 
 
