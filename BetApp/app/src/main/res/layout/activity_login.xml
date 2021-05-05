@@ -78,6 +78,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/signup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="16dp"
@@ -85,9 +86,9 @@
                 android:fontFamily="monospace"
                 android:text="Sign up"
                 android:textAllCaps="false"
-                android:textStyle="bold"
                 android:textColor="#96ffffff"
-                android:textSize="16dp" />
+                android:textSize="16dp"
+                android:textStyle="bold" />
 
             <Button
                 android:layout_width="wrap_content"

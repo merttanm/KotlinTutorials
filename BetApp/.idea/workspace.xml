@@ -7,24 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27bea447-e977-4800-a239-907f77c08f54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/merttan/betapp/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/betlogo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/logqwo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/buttonshapewhite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_email_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_lock_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/style.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UIDesign/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UIDesign/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UIDesign/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UIDesign/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UIDesign/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UIDesign/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KennyGame/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KennyGame/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPKotlin/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPKotlin/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/merttan/betapp/AnaSayfa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/merttan/betapp/ui/gallery/GalleryFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/merttan/betapp/ui/gallery/GalleryViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/merttan/betapp/ui/home/HomeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/merttan/betapp/ui/home/HomeViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/merttan/betapp/ui/slideshow/SlideshowFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/merttan/betapp/ui/slideshow/SlideshowViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_gallery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_slideshow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ana_sayfa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_gallery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_slideshow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/ana_sayfa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/merttan/betapp/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/merttan/betapp/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/buttonshapewhite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/buttonshapewhite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +61,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_API_30_2" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-04-25T20:21:00.022Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-05-01T20:14:06.218Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mezunapp" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
@@ -146,10 +159,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1826" y="138" key="FileChooserDialogImpl" timestamp="1619384754451">
+    <state x="1826" y="138" key="FileChooserDialogImpl" timestamp="1619900832265">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state x="1826" y="138" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1360.768@1366.0.1360.768" timestamp="1619384754451" />
+    <state x="1826" y="138" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1360.768@1366.0.1360.768" timestamp="1619900832265" />
+    <state width="1315" height="187" key="GridCell.Tab.0.bottom" timestamp="1619901521721">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state width="1315" height="187" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.768@1366.0.1360.768" timestamp="1619901521721" />
+    <state width="1315" height="187" key="GridCell.Tab.0.center" timestamp="1619901521721">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state width="1315" height="187" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.768@1366.0.1360.768" timestamp="1619901521721" />
+    <state width="1315" height="187" key="GridCell.Tab.0.left" timestamp="1619901521721">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state width="1315" height="187" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.768@1366.0.1360.768" timestamp="1619901521721" />
+    <state width="1315" height="187" key="GridCell.Tab.0.right" timestamp="1619901521721">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state width="1315" height="187" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.768@1366.0.1360.768" timestamp="1619901521721" />
     <state x="1862" y="161" key="chooseDestDirectoryDialog" timestamp="1619388022237">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
